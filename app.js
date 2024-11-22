@@ -1,6 +1,6 @@
 "use strict";
 /*first homework*/ 
-//1
+// 1
 const x = 10
 const y = 4
 console.log(x+y);
@@ -10,7 +10,7 @@ console.log(x/y);
 console.log(x**y);
 console.log(Math.sqrt(y));
 
-//2
+// 2
 let myVariable = "42";
 console.log(myVariable);
 
