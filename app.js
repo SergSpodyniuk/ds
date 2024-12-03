@@ -96,3 +96,5 @@ for (let b =1;b<=number;b+=2){
     
     console.log(iterativeOddSumTo(1)) // 1
     console.log(iterativeOddSumTo(10)) // 25
+
+//fourth homework
