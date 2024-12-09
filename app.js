@@ -1,29 +1,26 @@
 "use strict";
-function recursiveOddSumTo(number) {
-    let a = 0;
-        if (number%2 === 0){
-        number -= 1;
-     }
-while (number >= 1){
+//1
+const x = 10
+const y = 4
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+console.log(x**y);
+console.log(Math.sqrt(y));
 
+let myVariable = "42";
+console.log(myVariable);
      a+=number
    number-=2;
 
+myVariable = Number(myVariable)
+console.log(myVariable);
 }
 return a;
 };
 
-console.log(recursiveOddSumTo(1)) // 1
-console.log(recursiveOddSumTo(10)) // 25
-
-function iterativeOddSumTo(number) {
-    let a =0;
-for (let b =1;b<=number;b+=2){
-    a+=b
-}
-    return a;
-
-};
-
-    console.log(iterativeOddSumTo(1)) // 1
-    console.log(iterativeOddSumTo(10)) // 25
+myVariable = String(myVariable);
+console.log(myVariable);
+myVariable = Boolean(myVariable);
+console.log(myVariable);
