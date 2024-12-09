@@ -1,29 +1,43 @@
 "use strict";
-function recursiveOddSumTo(number) {
-    let a = 0;
-        if (number%2 === 0){
-        number -= 1;
-     }
-while (number >= 1){
+//1
+let text = "";
+for(let i = 1; i<=100;i++){
 
-     a+=number
-   number-=2;
+    if (i%3 === 0 && i%5 === 0 ){
+        text+= " LOLKEK"
+    }
+       else if (i%3 === 0){
+        text+= " KEK"
+    }        
+        else if (i%5 === 0){
+            text+= " LOL"
 
+        }
+        else{ 
+            text+= ` ${i}`}
 }
-return a;
-};
+console.log(text);
+let text1 = "";
+let text2 = "";
+//2
+const value = 10;
+let i = 0;
+if (Number.isNaN(value)){
 
-console.log(recursiveOddSumTo(1)) // 1
-console.log(recursiveOddSumTo(10)) // 25
+  for (let a =1;a<value;a++){
+    if (a%2 === 0){
+        text1 += ` ${a}`;
+    }
 
-function iterativeOddSumTo(number) {
-    let a =0;
-for (let b =1;b<=number;b+=2){
-    a+=b
+   }
+   while (i<value-2){
+    i+=2;
+    text2 += ` ${i}`;
+
+   }
+   console.log(text1);
+console.log(text2);
 }
-    return a;
-
-};
-
-    console.log(iterativeOddSumTo(1)) // 1
-    console.log(iterativeOddSumTo(10)) // 25
+else {
+    console.log("Таке чуство шо Бог десь наказує нас за шось")
+}
